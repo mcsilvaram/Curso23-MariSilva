@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Lexpin Online</title>
+    <link rel="stylesheet" hrefs="./../css/lexpin.css">
+</head>
+<body>
+    <!-- Barra de Navegacion -->
+     <nav>
+        <!-- Contenido a la izquierda -->
+         <div>
+            <p>Logo</p>
+         </div>
+          <!-- Contenido a la derecha -->
+         <div>
+           <a href="">
+            <p>Introduccion</p>
+           </a>
+         </div>
+     </nav>
+<!-- Contenido principal-->
+</body>
+</html>
