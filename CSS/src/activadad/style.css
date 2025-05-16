@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  padding: 10px;          /* Agrega espacio interior alrededor del contenido principal */
+  padding: 20px;          /* Agrega espacio interior alrededor del contenido principal */
 }
 
 section {
@@ -20,7 +20,7 @@ section {
 
 .text-box {
   max-width: 500px;         /* Ancho máximo del bloque de texto */
-  margin: 100px;              /* Espacio alrededor del bloque de texto */
+  margin: 50px;              /* Espacio alrededor del bloque de texto */
 }
 
 .image-box img {
