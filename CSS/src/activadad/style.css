@@ -12,15 +12,15 @@ main {
 section {
   display: flex;                 /* Organiza elementos hijos en una fila o columna */
   flex-direction: column;        /* Por defecto, organiza los elementos en columna (uno debajo del otro) */
-  align-items: justify;          /* Centra los elementos horizontalmente */
-  justify-content: justify;      /* Centra los elementos verticalmente */
+  align-items: center;          /* Centra los elementos horizontalmente */
+  justify-content: center;      /* Centra los elementos verticalmente */
   text-align: center;           /* Centra el texto */
   margin-bottom: 60px;          /* Agrega espacio debajo de cada sección */
 }
 
 .text-box {
   max-width: 500px;         /* Ancho máximo del bloque de texto */
-  margin: 10px;              /* Espacio alrededor del bloque de texto */
+  margin: 30px;              /* Espacio alrededor del bloque de texto */
 }
 
 .image-box img {
