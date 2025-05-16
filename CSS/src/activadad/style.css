@@ -42,7 +42,7 @@ p {
 @media (min-width: 768px) {
   section {
     flex-direction: row;        /* Cambia a fila cuando la pantalla es grande */
-    gap: 120px;                  /* Espacio entre los elementos de texto e imagen */
+    gap: 130px;                  /* Espacio entre los elementos de texto e imagen */
     text-align: left;           /* Alinea el texto a la izquierda */
   }
 
