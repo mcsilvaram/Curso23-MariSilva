@@ -30,6 +30,8 @@ section {
   padding: 10px;                      /* espacio entre el borde y la imagen */
   border-radius: 10px;                /* esquinas redondeadas del "borde" */
   display: inline-block;              /* ajusta la caja al tamaño del contenido (la imagen) */
+  box-sizing: border-box;
+  width: 470px;                      /* ancho imagen + padding */
 }
 
 .image-box img {
