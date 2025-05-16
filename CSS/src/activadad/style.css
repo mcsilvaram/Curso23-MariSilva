@@ -1,20 +1,20 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+  font-family: Arial, sans-serif;  /* Tipo de letra del cuerpo del sitio */
+  margin: 0;                       /* Quita el espacio exterior del cuerpo */
+  padding: 0;                     /* Quita el espacio interior del cuerpo */
+  line-height: 1.6;               /* Altura de línea para que el texto no esté tan pegado */
 }
 
 main {
-  padding: 20px;
+  padding: 20px;          /* Agrega espacio interior alrededor del contenido principal */
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  align-items: justify;
-  justify-content: justify;
-  text-align: center;
+  display: flex;                 /* Organiza elementos hijos en una fila o columna */
+  flex-direction: column;        /* Por defecto, organiza los elementos en columna (uno debajo del otro) */
+  align-items: justify;          /* Centra los elementos horizontalmente */
+  justify-content: justify;      /* Centra los elementos verticalmente */
+  text-align: center;           /* Centra el texto */
   margin-bottom: 60px;
 }
 
