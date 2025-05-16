@@ -1,6 +1,7 @@
+
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
+      margin: 50px 60px 40px 60px;
       padding: 0;
       line-height: 1.6;
     }
@@ -11,15 +12,15 @@
 
     section {
       display: flex;
+      gap: 200px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      text-align: center;
-      margin-bottom: 60px;
+      text-align: justify;
     }
 
     .text-box {
-      max-width: 600px;
+      max-width: 200px;
       margin: 20px;
     }
 
@@ -36,7 +37,7 @@
     }
 
     p {
-      font-size: 16px;
+      font-size: 50px;
     }
 
     @media (min-width: 768px) {
