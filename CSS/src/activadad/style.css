@@ -15,39 +15,39 @@ section {
   align-items: justify;          /* Centra los elementos horizontalmente */
   justify-content: justify;      /* Centra los elementos verticalmente */
   text-align: center;           /* Centra el texto */
-  margin-bottom: 60px;
+  margin-bottom: 60px;          /* Agrega espacio debajo de cada sección */
 }
 
 .text-box {
-  max-width: 600px;
-  margin: 20px;
+  max-width: 600px;         /* Ancho máximo del bloque de texto */
+  margin: 20px;              /* Espacio alrededor del bloque de texto */
 }
 
 .image-box img {
-  width: 450px;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 10px;
+  width: 450px;             /* Ancho fijo de la imagen */
+  height: 350px;            /* Alto fijo de la imagen */
+  object-fit: cover;        /* Ajusta la imagen para que no se deforme y llene el espacio */
+  border-radius: 10px;       /* Bordes redondeados */
 }
 
 h1 {
-  margin-bottom: 10px;
-  font-size: 30px;
+  margin-bottom: 10px;        /* Espacio debajo del título */
+  font-size: 30px;             /* Tamaño del título */
 }
 
 p {
-  font-size: 20px;
+  font-size: 20px;            /* Tamaño del texto del párrafo */
 }
 
 @media (min-width: 768px) {
   section {
-    flex-direction: row;
-    gap: 40px;
-    text-align: left;
+    flex-direction: row;        /* Cambia a fila cuando la pantalla es grande */
+    gap: 40px;                  /* Espacio entre los elementos de texto e imagen */
+    text-align: left;           /* Alinea el texto a la izquierda */
   }
 
   .image-box,
   .text-box {
-    flex: 1;
+    flex: 3;              /* Cada uno ocupa la mitad del ancho disponible */
   }
 }
