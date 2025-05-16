@@ -26,6 +26,7 @@ section {
 }
 
 .image-box img {
+  background-color: rgb(0, 255, 255); /*coloca un borde alrededor de la imagen */
   width: 450px;             /* Ancho fijo de la imagen */
   height: 350px;            /* Alto fijo de la imagen */
   object-fit: cover;        /* Ajusta la imagen para que no se deforme y llene el espacio */
