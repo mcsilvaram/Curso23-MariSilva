@@ -15,7 +15,7 @@ section {
   align-items: justify;          /* Centra los elementos horizontalmente */
   justify-content: justify;      /* Centra los elementos verticalmente */
   text-align: center;           /* Centra el texto */
-  margin-bottom: 60px;          /* Agrega espacio debajo de cada sección */
+  margin-bottom: 30px;          /* Agrega espacio debajo de cada sección */
 }
 
 .text-box {
@@ -43,7 +43,7 @@ p {
   section {
     flex-direction: row;        /* Cambia a fila cuando la pantalla es grande */
     gap: 40px;                  /* Espacio entre los elementos de texto e imagen */
-    text-align: left;           /* Alinea el texto a la izquierda */
+    text-align: justify;           /* Alinea el texto a la izquierda */
   }
 
   .image-box,
