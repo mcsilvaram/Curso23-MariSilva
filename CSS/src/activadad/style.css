@@ -28,7 +28,7 @@ section {
 .image-box {
   background-color: rgb(0, 255, 255); /* borde azul */
   padding: 10px;                      /* grosor del borde */
-  border-radius: 20px;                /* borde redondeado */
+  border-radius: 10px;                /* borde redondeado */
   display: inline-block;              /* ajusta al contenido */
 }
 
