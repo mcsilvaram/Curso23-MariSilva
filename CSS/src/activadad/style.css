@@ -3,7 +3,7 @@ body {
   margin: 0;                       /* Quita el espacio exterior del cuerpo */
   padding: 0;                     /* Quita el espacio interior del cuerpo */
   line-height: 1.6;               /* Altura de línea para que el texto no esté tan pegado */
-  padding-left: 40px;
+  padding-left: 50px;
   padding-right: 40px;
 }
 
