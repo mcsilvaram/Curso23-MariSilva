@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  padding: 30px;          /* Agrega espacio interior alrededor del contenido principal */
+  padding: 10px;          /* Agrega espacio interior alrededor del contenido principal */
 }
 
 section {
@@ -15,7 +15,7 @@ section {
   align-items: justify;          /* Centra los elementos horizontalmente */
   justify-content: justify;      /* Centra los elementos verticalmente */
   text-align: center;           /* Centra el texto */
-  margin-bottom: 30px;          /* Agrega espacio debajo de cada sección */
+  margin-bottom: 60px;          /* Agrega espacio debajo de cada sección */
 }
 
 .text-box {
