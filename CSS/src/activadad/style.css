@@ -19,7 +19,7 @@ section {
 }
 
 .text-box {
-  max-width: 600px;         /* Ancho máximo del bloque de texto */
+  max-width: 400px;         /* Ancho máximo del bloque de texto */
   margin: 20px;              /* Espacio alrededor del bloque de texto */
 }
 
@@ -48,6 +48,6 @@ p {
 
   .image-box,
   .text-box {
-    flex: 3;              /* Cada uno ocupa la mitad del ancho disponible */
+    flex: 1;              /* Cada uno ocupa la mitad del ancho disponible */
   }
 }
