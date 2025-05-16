@@ -20,7 +20,7 @@ section {
 
 .text-box {
   max-width: 500px;         /* Ancho máximo del bloque de texto */
-  margin: 50px;              /* Espacio alrededor del bloque de texto */
+  margin: 10px;              /* Espacio alrededor del bloque de texto */
 }
 
 .image-box img {
