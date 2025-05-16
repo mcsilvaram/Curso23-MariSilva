@@ -26,19 +26,18 @@ section {
 }
 
 .image-box {
-  background-color: rgb(0, 255, 255); /* crea el "borde" azul */
-  padding: 10px;                      /* espacio entre el borde y la imagen */
-  border-radius: 10px;                /* esquinas redondeadas del "borde" */
-  display: inline-block;              /* ajusta la caja al tamaño del contenido (la imagen) */
-  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 10px; /* para que la caja también tenga esquinas redondeadas */
+  overflow: hidden;    /* corta cualquier desbordamiento, para que la imagen respete el borde */
 }
 
 .image-box img {
   width: 450px;
   height: 350px;
-  object-fit: cover;                  /* que la imagen no se deforme */
-  border-radius: 10px;                /* esquinas redondeadas de la imagen */
-  display: block;                    /* elimina espacios blancos debajo de la imagen */
+  object-fit: cover;
+  border-radius: 10px;
+  border: 10px solid rgb(0, 255, 255); /* borde azul directamente en la imagen */
+  display: block;
 }
 
 h1 {
