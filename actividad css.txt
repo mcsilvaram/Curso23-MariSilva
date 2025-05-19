@@ -1,0 +1,126 @@
+Archivo <--- style.css--->
+body {
+  font-family: Arial, sans-serif;  /* Tipo de letra del cuerpo del sitio */
+  margin: 0;                       /* Quita el espacio exterior del cuerpo */
+  padding: 0;                     /* Quita el espacio interior del cuerpo */
+  line-height: 1.6;               /* Altura de línea para que el texto no esté tan pegado */
+  padding-left: 60px;             /*espacio a la izquierda */
+  padding-right: 40px;            /*espacio a la derecha */
+}
+
+main {
+  padding: 20px;          /* Agrega espacio interior alrededor del contenido principal */
+}
+
+section {
+  display: flex;                 /* Organiza elementos hijos en una fila o columna */
+  flex-direction: column;        /* Por defecto, organiza los elementos en columna (uno debajo del otro) */
+  align-items: center;          /* Centra los elementos horizontalmente */
+  justify-content: center;      /* Centra los elementos verticalmente */
+  text-align: center;           /* Centra el texto */
+  margin-bottom: 60px;          /* Agrega espacio debajo de cada sección */
+}
+
+.text-box {
+  max-width: 500px;         /* Ancho máximo del bloque de texto */
+  margin: 30px;              /* Espacio alrededor del bloque de texto */
+}
+
+.image-box {
+  display: inline-block;
+  border-radius: 10px; /* para que la caja también tenga esquinas redondeadas */
+  overflow: hidden;    /* corta cualquier desbordamiento, para que la imagen respete el borde */
+}
+
+.image-box img {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 10px solid rgb(0, 255, 255); /* borde azul directamente en la imagen */
+  display: block;
+}
+
+h1 {
+  margin-bottom: 10px;        /* Espacio debajo del título */
+  font-size: 30px;             /* Tamaño del título */
+}
+
+p {
+  font-size: 20px;            /* Tamaño del texto del párrafo */
+}
+
+@media (min-width: 768px) {
+  section {
+    flex-direction: row;        /* Cambia a fila cuando la pantalla es grande */
+    gap: 130px;                  /* Espacio entre los elementos de texto e imagen */
+    text-align: left;           /* Alinea el texto a la izquierda */
+  }
+
+  .image-box,
+  .text-box {
+    flex: 1;              /* Cada uno ocupa la mitad del ancho disponible */
+  }
+}
+
+
+Archivo <---index.html--->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi historia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section>
+      <div class="text-box">
+        <h1>Un futuro brillante</h1>
+        <p>
+          Hola, mi nombre es Alex y soy programador web. Hoy es mi primer día
+          trabajando en la empresa de tecnología de mis sueños. Quizás te
+          preguntes cómo llegué aquí. La respuesta es sencilla: con mucha
+          perseverancia.
+        </p>
+      </div>
+      <div class="image-box">
+        <img src="fotolexpin1.webp" alt="Imagen Un futuro brillante" />
+      </div>
+    </section>
+
+    <section>
+      <div class="image-box">
+        <img src="fotolexpin2.webp" alt="Imagen Poder de la constancia" />
+      </div>
+      <div class="text-box">
+        <h1>El poder de la constancia</h1>
+        <p>
+          No fue sencillo. En el camino hacia mi meta, enfrenté innumerables
+          obstáculos. Desde la falta de recursos hasta la carencia de educación
+          universitaria en tecnología, cada día era una nueva prueba. Pero
+          mantuve mi constancia, dedicando tiempo a estudiar, aprender y
+          practicar.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="text-box">
+        <h1>Un gran sueño</h1>
+        <p>
+          Desde niño, pasaba días enteros explorando videojuegos y aplicaciones
+          en mi modesto ordenador. Me sorprendía la capacidad de crear mundos
+          virtuales y soluciones prácticas. Fue esa fascinación la que sembró
+          en mí el sueño de ser programador, y hoy tú puedes iniciar tu camino
+          para hacer lo mismo.
+        </p>
+      </div>
+      <div class="image-box">
+        <img src="fotolexpin3.webp" alt="Imagen Un gran sueño" />
+      </div>
+    </section>
+  </main>
+</body>
+</html>
