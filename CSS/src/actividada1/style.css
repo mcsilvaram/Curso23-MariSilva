@@ -4,19 +4,42 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background: linear-gradient(135deg, #e0f7fa, #80deea);
-  color: #333;
+  background: linear-gradient(135deg, #606161, #80deea);
+  color: #e0dddd;
 }
 
-header {
-  background: linear-gradient(to right, #00bcd4, #009688);
-  color: white;
-  padding: 2rem;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-header img {
+.header-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.profile-photo {
   width: 150px;
   border-radius: 50%;
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.name-title h1 {
+  margin: 0 0 0.5rem;
+}
+
+.name-title p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.contact-info p {
+  margin: 0.3rem 0;
 }
 
 nav {
