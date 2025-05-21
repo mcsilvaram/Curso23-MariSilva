@@ -49,7 +49,7 @@ nav {
   background-color: #ffffffcc;
   padding: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .nav-buttons {
