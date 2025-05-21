@@ -9,6 +9,9 @@ body {
 }
 
 .header-container {
+  background: linear-gradient(to right, #00899b, #003631);
+  color: white;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,29 +46,32 @@ body {
 }
 
 nav {
+  padding-left: 50px;
   background-color: #ffffffcc;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.nav-buttons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1rem;
+  justify-content: center;
 }
 
-nav ul li a {
+.nav-buttons a {
+  background-color: #009688;
+  color: white;
+  padding: 0.6rem 1.2rem;
   text-decoration: none;
-  color: #00796b;
+  border-radius: 8px;
   font-weight: bold;
-  transition: color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: #004d40;
+.nav-buttons a:hover {
+  background-color: #00796b;
 }
 
 main {
