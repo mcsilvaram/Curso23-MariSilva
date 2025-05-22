@@ -85,7 +85,7 @@ nav {
   }
 
 .educacion-grid article {
-    background-color: #f0f0f0;
+    background: linear-gradient(to right, #00899b, #003631);
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
