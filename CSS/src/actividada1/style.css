@@ -11,11 +11,11 @@ body {
 .header-container {
   background: linear-gradient(to right, #00899b, #003631);
   color: white;
-  padding: 20px 40px;
+  padding: 20px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 1.8rem;
   flex-wrap: wrap;
 }
 
@@ -25,10 +25,10 @@ body {
 }
 
 .profile-photo {
-  width: 200px;
+  width: 250px;
   border-radius: 50%;
   display: block;
-  margin: auto;
+  margin: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -127,6 +127,6 @@ footer {
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.50rem;
   }
 }
