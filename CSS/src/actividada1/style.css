@@ -42,7 +42,7 @@ body {
 }
 
 .contact-info p {
-  margin: 0.5rem 2rem;
+  margin: 0 2rem;
 }
 
 nav {
@@ -56,10 +56,10 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  justify-content: justify;
+  justify-content: center;
   align-items: center;
-  width: 150%;
-  max-width: 1000px; /* límite opcional para que no se estire demasiado */
+  width: 250%;
+  /*max-width: 1000px; /* límite opcional para que no se estire demasiado */
 }
 
 .nav-buttons a {
@@ -71,7 +71,7 @@ nav {
   font-weight: bold;
   transition: background-color 0.3s ease;
   text-align: center;
-  min-width: 100px;
+  /*min-width: 100px;*/
 }
 
 .nav-buttons a:hover {
@@ -80,12 +80,12 @@ nav {
 
 main {
   padding: 2rem 4rem;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: auto;
 }
 
 section {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -95,7 +95,7 @@ h2 {
 }
 
 ul {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 footer {
@@ -103,7 +103,7 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /* Responsive design */
@@ -127,6 +127,6 @@ footer {
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 }
