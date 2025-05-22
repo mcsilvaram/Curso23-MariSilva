@@ -48,7 +48,6 @@ body {
 nav {
   background-color: #ffffffcc;
   padding: 1rem 15rem;
-  display: flex;
   justify-content: justify;
 }
 
