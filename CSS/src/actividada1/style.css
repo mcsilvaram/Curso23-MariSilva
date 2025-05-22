@@ -75,7 +75,7 @@ nav {
 }
 
 .nav-buttons a:hover {
-  background-color: #00796b;
+  background-color: #014139;
 }
 
 main {
@@ -89,7 +89,7 @@ section {
 }
 
 h2 {
-  border-bottom: 2px solid #009688;
+  border-bottom: 2px solid #016d64;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
