@@ -11,24 +11,24 @@ body {
 .header-container {
   background: linear-gradient(to right, #00899b, #003631);
   color: white;
-  padding: 5px 10px;
+  padding: 20px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
 .header-column {
   flex: 1;
-  min-width: 250px;
+  /*min-width: 250px;*/
 }
 
 .profile-photo {
-  width: 250px;
+  width: 230px;
   border-radius: 50%;
   display: block;
-  margin: 20px;
+  margin-left: 100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5rem);
 }
 
