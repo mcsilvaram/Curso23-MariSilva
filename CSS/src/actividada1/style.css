@@ -3,7 +3,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.5;
   background: linear-gradient(135deg, #606161, #80deea);
   color: #e0dddd;
 }
@@ -11,11 +11,11 @@ body {
 .header-container {
   background: linear-gradient(to right, #00899b, #003631);
   color: white;
-  padding: 20px 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1.8rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
@@ -28,7 +28,7 @@ body {
   width: 250px;
   border-radius: 50%;
   display: block;
-  margin: 30px;
+  margin: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
