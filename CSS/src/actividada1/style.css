@@ -47,18 +47,18 @@ body {
 
 nav {
   background-color: #ffffffcc;
-  padding: 1rem;
+  padding: 1rem 15rem;
   display: flex;
-  justify-content: center;
+  justify-content: justify;
 }
 
 .nav-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
   justify-content: center;
-  align-items: center;
-  width: 250%;
+  align-content: center;
+  /*width: 250%;*/
   /*max-width: 1000px; /* límite opcional para que no se estire demasiado */
 }
 
@@ -85,7 +85,9 @@ main {
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  padding-bottom: 1.5rem;
 }
 
 h2 {
