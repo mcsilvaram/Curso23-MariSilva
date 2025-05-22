@@ -55,10 +55,10 @@ nav {
 .nav-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: left;
+  gap: 2.5rem;
+  justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 150%;
   max-width: 1000px; /* límite opcional para que no se estire demasiado */
 }
 
@@ -71,7 +71,7 @@ nav {
   font-weight: bold;
   transition: background-color 0.3s ease;
   text-align: center;
-  min-width: 150px;
+  min-width: 100px;
 }
 
 .nav-buttons a:hover {
