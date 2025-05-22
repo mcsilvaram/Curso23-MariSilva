@@ -11,7 +11,7 @@ body {
 .header-container {
   background: linear-gradient(to right, #00899b, #003631);
   color: white;
-  padding: 10px 20px;
+  padding: 5px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .name-title h1 {
-  margin: 0 0 0.5rem;
+  margin: 0 0 1.5rem;
 }
 
 .name-title p {
@@ -42,7 +42,7 @@ body {
 }
 
 .contact-info p {
-  margin: 0.3rem 0;
+  margin: 0.5rem 3rem;
 }
 
 nav {
