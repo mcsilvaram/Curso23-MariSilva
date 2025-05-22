@@ -21,7 +21,6 @@ body {
 
 .header-column {
   flex: 1;
-  /*min-width: 250px;*/
 }
 
 .profile-photo {
@@ -57,8 +56,6 @@ nav {
   gap: 2rem;
   justify-content: center;
   align-content: center;
-  /*width: 250%;*/
-  /*max-width: 1000px; /* límite opcional para que no se estire demasiado */
 }
 
 .nav-buttons a {
@@ -70,7 +67,6 @@ nav {
   font-weight: bold;
   transition: background-color 0.3s ease;
   text-align: center;
-  /*min-width: 100px;*/
 }
 
 .nav-buttons a:hover {
@@ -106,7 +102,6 @@ nav {
 
 main {
   padding: 2rem 4rem;
-  /*max-width: 1200px;*/
   margin: auto;
 }
 
