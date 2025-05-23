@@ -15,21 +15,27 @@ body {
 header {
   background: linear-gradient(to right, #00bcd4, #009688);
   color: white;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .header-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
+}
+
+.photo-gradient-border {
+  background: linear-gradient(135deg, #ccc, #fff);
+  padding: 5px; /* ancho del borde */
+  border-radius: 50%; /* coincide con la imagen redonda */
+  display: inline-block;
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 250px;
   border-radius: 50%;
-  object-fit: cover;
+  display: block;
 }
 
 .intro h1 {
