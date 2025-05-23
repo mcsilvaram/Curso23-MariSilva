@@ -16,13 +16,18 @@ header {
   background: linear-gradient(to right, #00bcd4, #009688);
   color: white;
   padding: 3rem;
+  /*max-width: 1200px;*/
 }
 
 .header-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+  gap: 6rem;
 }
 
 .photo-gradient-border {
@@ -77,7 +82,7 @@ nav ul li a:hover {
 
 main {
   padding: 2rem;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
 }
 
