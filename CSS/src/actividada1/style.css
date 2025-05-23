@@ -1,155 +1,122 @@
-/* General styles */
-body {
-  font-family: 'Segoe UI', sans-serif;
+/* Reset básico */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
-  background: linear-gradient(135deg, #606161, #80deea);
-  color: #e0dddd;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #00bcd4, #009688);
+  color: white;
+  padding: 2rem;
 }
 
 .header-container {
-  background: linear-gradient(to right, #00899b, #003631);
-  color: white;
-  padding: 20px 20px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.header-column {
-  flex: 1;
 }
 
 .profile-photo {
-  width: 230px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  display: block;
-  margin-left: 100px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5rem);
+  object-fit: cover;
 }
 
-.name-title h1 {
-  margin: 0 0 1rem;
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
-.name-title p {
-  margin: 0;
-  font-weight: 600;
-}
-
-.contact-info p {
-  margin: 0 2rem;
+.subtitle {
+  font-weight: bold;
+  margin: 0.5rem 0;
 }
 
 nav {
   background-color: #ffffffcc;
-  padding: 1rem 15rem;
-  justify-content: justify;
-}
-
-.nav-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  align-content: center;
-}
-
-.nav-buttons a {
-  background-color: #009688;
-  color: white;
-  padding: 0.5rem 0.8rem;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+  padding: 1rem;
   text-align: center;
 }
 
-.nav-buttons a:hover {
-  background-color: #014139;
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
 }
 
-.educacion-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-top: 1rem;
-  }
-
-.educacion-grid article {
-    background: linear-gradient(to right, #00899b, #003631);
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+nav ul li a {
+  background-color: #00796b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
 }
-.experiencia-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-top: 1rem;
-  }
 
-.experiencia-grid article {
-    background: linear-gradient(to right, #00899b, #003631);
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+nav ul li a:hover {
+  background-color: #004d40;
 }
 
 main {
-  padding: 2rem 4rem;
+  padding: 2rem;
+  max-width: 1200px;
   margin: auto;
 }
 
-section {
+.card {
+  background-color: #b2dfdb;
+  padding: 1.5rem;
+  border-radius: 10px;
   margin-bottom: 2rem;
-  line-height: 1.5;
-  padding-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 h2 {
-  border-bottom: 2px solid #016d64;
-  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #009688;
   margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  color: #004d40;
 }
 
-ul {
-  padding-left: 2rem;
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.icon-grid {
+  text-align: center;
+}
+
+.icon-grid div {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.icon-grid span {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 footer {
-  background-color: #009688;
+  background-color: #00796b;
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 1rem;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  header {
-    text-align: center;
-    padding: 1.5rem;
-  }
-
-  header img {
-    margin-bottom: 1rem;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  main {
-    padding: 1rem;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
+  margin-top: 2rem;
 }
