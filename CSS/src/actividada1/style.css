@@ -26,8 +26,8 @@ header {
 }
 
 .photo-gradient-border {
-  background: linear-gradient(135deg, #ccc, #fff);
-  padding: 5px; /* ancho del borde */
+  background: radial-gradient(circle, #616161 0%, #fff 100%);
+  padding: 8px; /* ancho del borde */
   border-radius: 50%; /* coincide con la imagen redonda */
   display: inline-block;
 }
@@ -86,7 +86,7 @@ main {
   padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.2);
 }
 
 h2 {
