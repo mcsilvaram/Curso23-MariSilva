@@ -1,0 +1,23 @@
+/* importacion de archivo */
+/* Variables */
+/* Mixins
+ *  Los mixis son funciones que se puede reutilizar en el codigo
+ *  En palabras mas simples, son fragmentos de codigo que se pueden reutilizar en
+ *  diferentes partes del proyectos */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*    @include estilizado($color-texto, 20px, 10px, 20px, null)
+ *  div
+ *      color: $color-texto
+ *      @include fila(row, center, center) *//*# sourceMappingURL=style.css.map */
