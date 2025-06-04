@@ -1,4 +1,4 @@
-@mixin flex($direccion, $justificacion, $alineacion, $gap)
+@mixin fila($direccion, $justificacion, $alineacion, $gap)
     display: flex
     flex-direction: $direccion
     justify-content: $justificacion
@@ -6,18 +6,18 @@
 
 @mixin estilizado($color, $tamano, $padding, $margen)
     @if $color == null
-        $color: black
+      $color: black
     @else
-        $color: $color
+      $color: $color
     @if $tamano == null
-        $tamano: 16px
+      font-size: 16px
     @else
-        font-size: $tamano
+      font-size: $tamano
     @if $padding == null
-        $padding: 0
+      $padding: 0
     @else 
-        padding: $padding
+      padding: $padding
     @if $margen == null
-        margin: 0
+      margin: 0
     @else 
-        margin: $margen
+      margin: $margen
