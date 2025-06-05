@@ -5,19 +5,12 @@
     align-items: $alineacion
 
 @mixin estilizado($color, $tamano, $padding, $margen)
-    @if $color == null
-      $color: black
-    @else
+    @if $color not null
       $color: $color
-    @if $tamano == null
-      font-size: 16px
-    @else
+    @if $tamano not null
       font-size: $tamano
-    @if $padding == null
-      $padding: 0
-    @else 
-      padding: $padding
-    @if $margen == null
-      margin: 0
-    @else 
+    @if $padding not null
+      $padding: $padding
+    @if $margen not null
       margin: $margen
+/*
